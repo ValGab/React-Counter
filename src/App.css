@@ -10,6 +10,10 @@ h1 {
   margin-left: 40px;
 }
 
+.space {
+  width: 53px;
+}
+
 /* HEADER */
 
 header {
@@ -44,7 +48,7 @@ main {
   cursor: pointer;
 }
 
-.count > div {
+.counter-status {
   margin: 0 30px;
   background-color: #5c48d3;
   width: 160px;

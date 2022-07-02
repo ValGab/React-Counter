@@ -22,13 +22,17 @@ function App() {
       <Header />
       <main>
         <div className="count">
-          {counter === 0 ? null : (
+          {counter === 0 ? (
+            <div className="space"></div>
+          ) : (
             <img onClick={decrement} src={minus} alt="minus" />
           )}
-          <div>
+          <div className="counter-status">
             <p>{counter}</p>
           </div>
-          {counter === 10 ? null : (
+          {counter === 10 ? (
+            <div className="space"></div>
+          ) : (
             <img onClick={increment} src={plus} alt="plus" />
           )}
         </div>
